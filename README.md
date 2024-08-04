@@ -40,18 +40,45 @@ Ce projet s'articule autour de trois points :
 - La base de données
   - mise en place d'un serveur MongoDB
 
-## Dépendances et Installation
+## Dépendances
 
-- Le gestionnaire de paquets npm
-- React
-- Axios : ```npm install axios```
-- Express : ```npm install express```
-- Nodemon : ```npm install nodemon```
-- MongoDB
-- Le driver pour Node.js : ```npm install
-mongodb```
-
+- Le gestionnaire de paquets npm (sur linux, utiliser le gestionnaire de paquet de la distribution)
+- MongoDB : https://www.mongodb.com/docs/manual/installation/
+  
 ## Mise en Place
 
+- Client : 
+  ```bash 
+	cd Organiz-asso
+	cd client
+	npm install
+	```
+- Serveur :
+  ```bash
+  cd Organiz-asso
+  cd server
+  npm install
+  ```
+
+
 ## Utilisation
+
+- Démarrage du client :
+	```bash
+	cd Organiz-asso
+	cd client
+	cd src
+	npm run dev
+	```
+
+- Démarrage du serveur :
+	```bash
+	cd Organiz-asso
+	cd server
+	cd src
+	node index.js
+	```
+
+- Démarrage de la base de données :
+	```sudo systemctl start mongod```
 
