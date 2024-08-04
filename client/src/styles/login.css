@@ -1,0 +1,51 @@
+#login{
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+}
+
+.titre{
+    display: flex;
+    height: 25%;
+}
+
+.form_connexion{
+    display: flex;
+    height: 30%;
+}
+
+.inscription{
+    display: flex;
+    flex-direction: column;
+    height: 25%;
+}
+
+form{
+    display: grid;
+    grid-template-columns: 20em 20em;
+    margin: auto;
+    padding: 10px;
+    border : 3px solid black;
+}
+
+
+#login_form, #password, label {
+    margin-bottom: 1em; 
+}
+
+
+div {
+    display:flex;
+    justify-content: center;
+}
+
+h1{
+    color:blue;
+    text-shadow :1.5px 1.5px 1.5px grey
+}
+
+.bouton{
+    background-color: rgb(170, 169, 169);
+}
+
+

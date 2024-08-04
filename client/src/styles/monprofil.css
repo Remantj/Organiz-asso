@@ -1,0 +1,26 @@
+.icon-hamburger{
+    width: 50%;
+    height: 60%;
+    margin-top: 2em;
+}
+
+#aside{
+    display: flex;
+    flex-direction: row; 
+}
+
+#infos{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.x{
+    font-weight: bold;
+    font-size: 2em;
+    margin-top: -1em;
+}
+
+.x:hover{
+	color: blue;
+}

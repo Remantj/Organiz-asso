@@ -1,0 +1,23 @@
+.listeMessages{
+    display: block;
+    flex-direction: column;
+    overflow-y: scroll;
+	overflow-x: hidden;
+    height: 50%;
+    width: 60%;
+    background-color: gray;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#message_user{
+	margin-left: 50%;
+}
+
+#message_autre{
+	margin-left: 2%;
+}
+
+#affichage_message{
+	margin-left: 30%;
+}

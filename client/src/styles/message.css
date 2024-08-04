@@ -1,0 +1,117 @@
+.conteneur{
+	display: flex;
+	flex-direction: row;
+	height: 50%;
+	width: 45%;
+	margin-bottom: 4%;
+}
+
+#message_autre > .message{
+    display: flex;
+    flex-direction: column;
+	height: 100%;
+	width: 85%;
+	margin-left: 5%;
+}
+
+#message_user > .message{
+    display: flex;
+    flex-direction: column;
+	height: 100%;
+	width: 85%;
+	margin-right: 5%;
+}
+
+#affichage_message > .message{
+    display: flex;
+    flex-direction: column;
+	height: 100%;
+	width: 85%;
+	margin-left: 5%;
+}
+
+#message_autre > .message > .texte{
+    width: 100%;
+    height: 60%;
+    background-color: lightskyblue;
+    border: 2px solid black;
+    border-radius: 1em;
+	overflow: scroll;
+}
+
+#affichage_message > .message > .texte{
+    width: 100%;
+    height: 60%;
+    background-color: lightskyblue;
+    border: 2px solid black;
+    border-radius: 1em;
+	overflow: scroll;
+}
+
+#message_user > .message > .texte{
+    width: 100%;
+    height: 60%;
+    background-color: greenyellow;
+    border: 2px solid black;
+    border-radius: 1em;
+	overflow: scroll;
+}
+
+.image_poubelle{
+	height: 100%;
+	width: 100%
+}
+
+.image_signaler{
+	height: 100%;
+	width: 100%
+}
+
+.div_boutons_message{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	width: 13%;
+}
+
+.div_poubelle{
+	height: 50%;
+	width: 100%;
+}
+
+.div_signaler{
+	height: 50%;
+	width: 100%;
+}
+
+.bouton_poubelle{
+	height: 55%;
+	width: 100%;
+	margin-top: 30%;
+}
+
+.bouton_signaler{
+	height: 55%;
+	width: 100%;
+	margin-top: 90%;
+}
+
+#auteur{
+    margin-bottom: -0.005em;
+	color: black; /* Couleur de texte par défaut */
+  	transition: color 0.1s ease; /* Transition fluide pour le changement de couleur */
+	width: 100%;
+	height: 20%;
+	text-align: center;
+}
+
+#auteur:hover {
+	color: blue; /* Couleur de texte bleu au survol */
+}
+
+#date{
+	width: 100%;
+	height: 20%;
+	text-align: center;
+	margin-top: -1em;
+}

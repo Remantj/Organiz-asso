@@ -1,0 +1,54 @@
+#profil{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+#h1-profil{
+    text-align: center;
+}
+
+#contenu-profil{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 85%;
+    margin-top: 3em;
+    align-items: center;
+}
+
+.p-profil{
+   display: flex;
+   flex-direction: column; 
+}
+
+.p-profil p{
+    font-size: large;
+}
+
+.p-profil p > span{
+    font-weight: bold;
+}
+
+.mettreAdmin{
+	justify-content: left;
+}
+
+#boutonUpdate{
+	margin-left: 10%;
+}
+
+
+
+.retour{
+    height: 10%;
+    width: 10%;
+    margin-top: 2em;
+    margin-right: 2em;
+}
+
+.retour > button{
+    width: 80%;
+    height: 80%;
+}
